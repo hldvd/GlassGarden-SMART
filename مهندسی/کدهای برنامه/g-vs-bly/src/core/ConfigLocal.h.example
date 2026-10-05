@@ -1,0 +1,13 @@
+#ifndef CONFIG_LOCAL_H
+#define CONFIG_LOCAL_H
+
+// WiFi
+constexpr char WIFI_SSID[] = "YOUR_WIFI_SSID";
+constexpr char WIFI_PASSWORD[] = "YOUR_WIFI_PASSWORD";
+
+// Blynk
+#define BLYNK_TEMPLATE_ID "YOUR_TEMPLATE_ID"
+#define BLYNK_TEMPLATE_NAME "YOUR_TEMPLATE_NAME"
+#define BLYNK_AUTH_TOKEN "YOUR_AUTH_TOKEN"
+
+#endif

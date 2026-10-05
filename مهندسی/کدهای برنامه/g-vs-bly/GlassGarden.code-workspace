@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "BlynkTest",
+			"path": "../BlynkTest"
+		}
+	],
+	"settings": {}
+}
