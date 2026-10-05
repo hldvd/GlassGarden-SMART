@@ -2,7 +2,7 @@
   "autoStart": true,
   "port": 27124,
   "bindAddress": "127.0.0.1",
-  "apiKey": "f155b7216700f5b46f958e012f63e564a9f9d65292ea32fe1bd5c082cca72890",
+  "apiKey": "64f7e0929a809ef217845d3c8eec8db6237926eb2443cace12d938a4498047ae",
   "requestTimeout": 30000,
   "enableRestApi": true,
   "enableMcp": true,
