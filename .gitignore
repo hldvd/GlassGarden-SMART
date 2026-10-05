@@ -5,3 +5,6 @@
 
 # کد برنامه — مخزن جداگانه (hldvd/GlassGarden)
 
+# تنظیمات افزونهٔ cli-rest-mcp (حاوی apiKey — نباید ردیابی شود)
+.obsidian/plugins/cli-rest-mcp/data.json
+
