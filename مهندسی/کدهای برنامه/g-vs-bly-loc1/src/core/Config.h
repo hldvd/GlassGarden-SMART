@@ -25,9 +25,13 @@ constexpr uint8_t LIGHT_PIN     = 27;  // 💡 رله ۲
 constexpr uint8_t FOGGER_PIN    = 32;  // 💨 رله ۳
 constexpr uint8_t FAN_PIN       = 33;  // 🌀 رله ۴
 
+//-------------- 4-Wire Fan ----------------
+constexpr uint8_t FAN_PWM_PIN  = 4;   // کنترل سرعت فن
+constexpr uint8_t FAN_TACH_PIN = 16;  // خواندن دور فن
+
 //-------------- Sensors -----------------
-constexpr uint8_t DHT_PIN       = 17;  // 🌡️ DHT22
-constexpr uint8_t WATER_PIN     = 4;   // 📏 سنسور سطح آب P100
+constexpr uint8_t DHT_PIN       = 21;  // 🌡️ DHT22
+constexpr uint8_t WATER_PIN     = 17;   // 📏 سنسور سطح آب P100
 
 // نوع سنسور : 11 = DHT11 | 22 = DHT22/AM2302 | 21 = DHT21
 constexpr uint8_t DHT_TYPE      = 22;

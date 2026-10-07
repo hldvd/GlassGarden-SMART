@@ -39,6 +39,7 @@ void DeviceManager::begin()
 
 void DeviceManager::update()
 {
+    fanDevice.update();
     // Water Empty Protection: در هر حالت (AUTO/MANUAL)
     // اگر آب خالی شد و پمپ/مه‌ساز روشن هستند، فوراً خاموش شوند
     if (state.waterEmpty)
