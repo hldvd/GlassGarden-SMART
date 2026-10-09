@@ -7,12 +7,12 @@ date: 2026-09-24
 # ارجاع به ریپوی کد
 
 کد اصلی، PCB، و مستندات فرمت‌شده اینجاست:
-🔗 https://github.com/hldvd/GlassGarden
+🔗 https://github.com/hldvd/GlassGarden-SMART
 
 ## ساختار مخزن
 
 ```
-GlassGarden/
+GlassGarden-SMART/
 ├── Archive/                          — نسخه‌های قدیمی
 ├── Docs/                             — اسناد رسمی (PDF/DOCX)
 │   ├── 01-مدیریتی/                   — اسناد مدیریت پروژه

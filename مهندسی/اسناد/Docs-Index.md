@@ -6,7 +6,7 @@ tags: [docs, index]
 
 # فهرست اسناد پروژه
 
-اسناد رسمی پروژه (PDF/DOCX) در مخزن اصلی [hldvd/GlassGarden](https://github.com/hldvd/GlassGarden) در پوشه‌ی `Docs/` نگهداری می‌شوند. در اینجا فهرست و خلاصه‌ی هر سند آمده است.
+اسناد رسمی پروژه (PDF/DOCX) در مخزن رسمی [hldvd/GlassGarden-SMART](https://github.com/hldvd/GlassGarden-SMART) در پوشه‌ی `Docs/` نگهداری می‌شوند. در اینجا فهرست و خلاصه‌ی هر سند آمده است.
 
 ## ۰۱ — مدیریتی
 
