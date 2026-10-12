@@ -1,6 +1,6 @@
 ---
 type: docs-index
-date: 2026-09-24
+date: 2026-10-12
 tags: [docs, index]
 ---
 
@@ -68,9 +68,11 @@ tags: [docs, index]
 
 | فایل | فرمت | توضیح |
 |---|---|---|
-| `GlassGarden — Interior & Landscape Design.pdf` | PDF | طراحی داخلی و محوطه‌سازی |
+| `GlassGarden — Interior & Landscape Design.pdf` | PDF | طراحی داخلی و محوطه‌سازی (نسخهٔ ۰.۱، 2026-08-08) |
+| `GGSMART_Interior_Paludarium_Design_Input_v0.1.md` | Markdown | ورودی طراحی داخلی پالوداریوم نسخهٔ ۰.۱ (2026-10-12) — ابعاد اعلام‌شدهٔ جدید + مقایسه با ابعاد قبلی |
 
-**مسیر:** `Docs/05-طراحی-داخلی/`
+**مسیر فعلی در این مخزن:** `مهندسی/اسناد/طراحی داخلی/`  
+(مسیر قدیمی در مخزن منسوخ: `Docs/05-طراحی-داخلی/`)
 
 ## ۰۶ — تست و اعتبارسنجی
 
