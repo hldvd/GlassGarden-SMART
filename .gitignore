@@ -1,10 +1,204 @@
+# ============================================================
+# G&G^SMART — .gitignore جامع
+# محافظت از فایل‌های حساس، خروجی‌های ساخت و فایل‌های موقت
+# ============================================================
+
+# --- فایل‌های حساس و کلیدها ---
+# پیکربندی واقعی با اسرار (نباید ردیابی شود)
+ConfigLocal.h
+**/ConfigLocal.h
+# هر فایل data.json احتمالی حاوی کلید یا دادهٔ حساس
+**/data.json
+.obsidian/plugins/**/data.json
+
+# --- تنظیمات شخصی Obsidian ---
+.obsidian/
 .obsidian/workspace.json
 .obsidian/workspace.json.bak
 .obsidian/workspace-mobile.json
+
+# --- پوشه‌های سطل بازگشت و زباله ---
 .trash/
+.trash-*/
 
 # کد برنامه — مخزن جداگانه (hldvd/GlassGarden)
 
-# تنظیمات افزونهٔ cli-rest-mcp (حاوی apiKey — نباید ردیابی شود)
-.obsidian/plugins/cli-rest-mcp/data.json
+# --- PlatformIO: خروجی ساخت و کش ---
+.pio/
+.pio/build/
+.pio/libdeps/
+.pio/libdeps/*/
 
+# --- خروجی‌های ساخت و کامپایل ---
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.obj
+*.d
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.out
+build/
+Build/
+dist/
+*.log
+
+# --- فایل‌های کش ---
+.cache/
+*.cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+*.tsbuildinfo
+
+# --- فایل‌های پشتیبان (Backup) ---
+*.bak
+*.backup
+*.bak2
+*.old
+*.orig
+*.save
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+
+# --- فایل‌های موقت ---
+*.tmp
+*.temp
+*.lock
+*.pid
+*.seed
+*.pid.lock
+.tmp/
+tmp/
+temp/
+*.log.*
+*.crash
+*.dump
+*.core
+core
+core.*
+
+# --- تنظیمات شخصی IDE ---
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.vs/
+*.suo
+*.user
+*.userprefs
+
+# --- فایل‌های سیستمی ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- فایل‌های محیط و سکرت‌ها ---
+.env
+.env.*
+!.env.example
+*.secret
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+secrets.json
+credentials.json
+
+# --- فایل‌های پیکربندی محلی ---
+*.local
+*.local.json
+*.local.yaml
+*.local.yml
+*.local.toml
+*.local.ini
+*.local.cfg
+*.local.conf
+
+# --- پوشه‌های وابسته و کتابخانه‌ها ---
+libdeps/
+.pio/libdeps/
+
+# --- فایل‌های پوشش و متادیتای موقت ---
+*.coverage
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# --- فایل‌های نرم‌افزار کنترل نسخهٔ محلی ---
+*.patch
+*.diff
+*.rej
+
+# --- فایل‌های پیکربندی محلی سرویس‌ها ---
+*.local.cfg
+*.local.conf
+*.local.env
+*.local.json
+*.local.yaml
+*.local.yml
+*.local.toml
+*.local.ini
+
+# --- فایل‌های مربوط به پلتفرم‌ها و سرویس‌ها ---
+.netlify/
+.vercel/
+.deno.lock
+*.tsbuildinfo
+
+# --- فایل‌های مربوط به داکر ---
+docker-compose.override.yml
+docker-compose.local.yml
+.docker/
+
+# --- فایل‌های مربوط به دیتابیس ---
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# --- فایل‌های مربوط به کش پلتفرم‌ها ---
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# --- فایل‌های مربوط به پلتفرم‌های خاص ---
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+*.moved-aside
+
+# --- فایل‌های مربوط به سرویس‌های ابری ---
+*.aws/
+*.gcloud/
+*.azure/
+
+# --- فایل‌های مربوط به سرویس‌های CI/CD محلی ---
+*.ci.local
+*.ci.env
