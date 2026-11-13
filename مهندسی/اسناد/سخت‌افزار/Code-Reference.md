@@ -7,7 +7,7 @@ date: 2026-09-24
 # ارجاع به ریپوی کد
 
 کد اصلی، PCB، و مستندات فرمت‌شده اینجاست:
-🔗 https://github.com/hldvd/GlassGarden
+🔗 https://github.com/hldvd/GG-SMART
 
 ## ساختار مخزن
 
